@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         //3. swap case
+        
+         let x = "MahaK, shRivasTava";
+        let y = x.split(" ");
+
+       let z = y.map(check => {
+        return check === check.toLowerCase() ? check.toUpperCase() : check.toLowerCase();
+       });
+
+        console.log(z);
+
+    </script>
+  
+ 
+</body>
+</html>
